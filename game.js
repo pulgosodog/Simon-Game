@@ -9,6 +9,7 @@ $(document).keydown(function (e) {
     if (gameStart) {
         nextSequence();
         gameStart = false;
+       
     }
 });
 
@@ -39,6 +40,7 @@ function nextSequence() {
     playSound(randomChosenColor);
     level++;
     $("h1").text("level " + level);
+    $('span').text(level);
 }
 
 function checkAnswer(currentLevel) {
