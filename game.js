@@ -21,7 +21,14 @@ $(".btn").click(function (e) {
     pressed(userChosenColor);
     checkAnswer(userClickedPattern.length - 1);
 }
+
 )
+$(".normal").click(function (e) {
+    if (gameStart) {
+        nextSequence();
+        gameStart = false;
+    }
+})
 
 /********************************************Functions*******************************************************************/
 function nextSequence() {

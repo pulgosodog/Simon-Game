@@ -51,3 +51,15 @@ body {
   box-shadow: 0 0 20px white;
   background-color: grey;
 }
+ .normal{
+ border-radius: 80%;
+ background-color: #445760;
+ font-family: 'Press Start 2P', cursive;
+ color: aliceblue;
+ background-color: #E5B621;
+ border-width: 3px;
+ height: 100px;
+  width: 100px;
+  display: block;
+  text-align: center;
+ }
